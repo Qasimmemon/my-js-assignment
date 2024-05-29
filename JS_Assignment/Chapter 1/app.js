@@ -1,0 +1,5 @@
+alert("Error! Please Enter a Valid Link")
+alert(" Welcome to js land... \n  Happy coding")
+alert("Welcome to JS land...")
+alert("Happy Coding!")
+alert("Hello... I can run JS through my web browser's")

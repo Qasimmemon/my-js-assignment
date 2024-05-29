@@ -1,0 +1,241 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="name_1">Practice Java Script:</h1>
+    <p id="name_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sapiente eius, rerum dolores magnam
+        deleniti odit ipsum saepe iure, ex dicta quae in, soluta hic molestiae veniam recusandae molestias officiis.</p>
+        <input type="value" id="myname">
+        <input type="value" id="youname">
+        <input type="value" id="mrname">
+    <script src="app.js"></script>
+</body>
+
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Picker on Demand</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    #colorPickerContainer {
+        display: none; /* Initially hide the color picker container */
+    }
+</style>
+</head>
+<body>
+
+<h1>Color Picker on Demand</h1>
+
+<button id="showColorPickerBtn">Show Color Picker</button>
+
+<div id="colorPickerContainer">
+    <label for="colorPicker">Choose a color:</label>
+    <input type="color" id="colorPicker">
+</div>
+
+<script>
+    var showColorPickerBtn = document.getElementById("showColorPickerBtn");
+    var colorPickerContainer = document.getElementById("colorPickerContainer");
+    var colorPicker = document.getElementById("colorPicker");
+
+    // Add click event listener to the button
+    showColorPickerBtn.addEventListener("click", function() {
+        // Toggle the display of the color picker container
+        if (colorPickerContainer.style.display === "none") {
+            colorPickerContainer.style.display = "block";
+        } else {
+            colorPickerContainer.style.display = "none";
+        }
+    });
+
+    // Add change event listener to the color picker
+    colorPicker.addEventListener("change", function() {
+        var selectedColor = colorPicker.value;
+        console.log("Selected color:", selectedColor);
+        // You can perform any actions with the selected color here
+    });
+</script>
+
+</body>
+</html>  -->
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Picker User Demand</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    #colorPickerContainer {
+        display: none; /* Initially hide the color picker container */
+    }
+    #coloredBox {
+        width: 200px;
+        height: 200px;
+        margin: 20px auto;
+        border: 2px solid black;
+    }
+</style>
+</head>
+<body>
+
+<h1>Color Picker User Demand</h1>
+
+<button id="showColorPickerBtn">Show Color Picker</button>
+
+<div id="colorPickerContainer">
+    <label for="colorPicker">Choose a color:</label>
+    <input type="color" id="colorPicker">
+</div>
+
+<div id="coloredBox"></div>
+
+<script>
+    var showColorPickerBtn = document.getElementById("showColorPickerBtn");
+    var colorPickerContainer = document.getElementById("colorPickerContainer");
+    var colorPicker = document.getElementById("colorPicker");
+    var coloredBox = document.getElementById("coloredBox");
+
+    // Add click event listener to the button
+    showColorPickerBtn.addEventListener("click", function() {
+        // Toggle the display of the color picker container
+        if (colorPickerContainer.style.display === "none") {
+            colorPickerContainer.style.display = "block";
+        } else {
+            colorPickerContainer.style.display = "none";
+        }
+    });
+
+    // Add change event listener to the color picker
+    colorPicker.addEventListener("change", function() {
+        var selectedColor = colorPicker.value;
+        // Update the background color of the colored box
+        coloredBox.style.backgroundColor = selectedColor;
+    });
+</script>
+
+</body> 
+</html>-->
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RGB Color Picker User Demand</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    #colorPickerContainer {
+        display: none; /* Initially hide the color picker container */
+    }
+    #coloredBox {
+        width: 200px;
+        height: 200px;
+        margin: 20px auto;
+        border: 2px solid black;
+    }
+</style>
+</head>
+<body id="div1">
+  -->
+<!-- <h1>RGB Color Picker</h1>
+
+<button id="showColorPickerBtn">Show RGB Color Picker</button>
+
+<div id="colorPickerContainer">
+    <label for="redInput">Red:</label>
+    <input type="number" id="redInput" min="0" max="255"><br>
+    <label for="greenInput">Green:</label>
+    <input type="number" id="greenInput" min="0" max="255"><br>
+    <label for="blueInput">Blue:</label>
+    <input type="number" id="blueInput" min="0" max="255">
+</div>
+
+<div id="coloredBox"></div> 
+
+<h1>Color Picker</h1>
+
+<div id="picker2">
+    <input type="value" id="reg" min="0" max="250" placeholder="0 to 250 value enter">
+    <input type="value" id="green" min ="0" max="250" placeholder="0 to 250 value enter">
+    <input type="value" id="blue"  min ="0" max="250" placeholder="0 to 250 value enter">
+</div>
+<button onclick="myFunction()">Change color</button>
+
+<script src="app.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #000; color: #fff;">
+    <center>
+    <h1>color picker using js</h1>
+<section>
+    <div id="div1">Color picker
+    </div>
+    <div id="color-form">
+        <input type="value" id="red"  min="0"  max="255" placeholder="value">
+        <input type="value" id="green" min="0"  max="255" placeholder="value">
+        <input type="value" id="blue"  min="0"  max="255"placeholder="value">
+        <button onclick="applyColor(event)" >apply color</button></div>
+</section>
+</center>
+    <script src="app.js"></script>
+</body>
+</html>

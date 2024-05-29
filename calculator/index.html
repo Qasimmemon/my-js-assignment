@@ -1,0 +1,91 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="result">
+        <button onclick="clear()">C</button>
+        <button onclick="runFunction('1')">1</button>
+        <button onclick="runFunction('2')">2</button>
+        <button onclick="runFunction('3')">3</button>
+        <button onclick="runFunction('4')">4</button>
+        <button onclick="runFunction('5')">5</button>
+        <button onclick="runFunction('6')">6</button>
+        <button onclick="runFunction('7')">7</button>
+        <button onclick="runFunction('8')">8</button>
+        <button onclick="runFunction('9')">9</button>
+        <button onclick="runFunction('0')">0</button>
+        <button onclick="runFunction('=')">=</button>
+        <button onclick="runFunction('+')">+</button>
+        <button onclick="runFunction('-')">-</button>
+        <button onclick="runFunction('*')">*</button>
+        <button onclick="runFunction('/')">/</button>
+
+    </div>
+
+    <script>
+        function clear(val) {
+    document.getElementById('result').value = ""
+}
+function runFunction(val_1) {
+    document.getElementById('result').value += value
+}
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="result"><br><br>
+    <div id="get">
+        
+        
+        <button onclick="clearResult()">C</button>
+        <button onclick="runFunction('1')">1</button>
+        <button onclick="runFunction('2')">2</button>
+        <button onclick="runFunction('+')">+</button>
+        <button onclick="runFunction('3')">3</button>
+        <button onclick="runFunction('4')">4</button>
+        <button onclick="runFunction('5')">5</button>
+        <button onclick="runFunction('-')">-</button>
+        <button onclick="runFunction('6')">6</button>
+        <button onclick="runFunction('7')">7</button>
+        <button onclick="runFunction('8')">8</button>
+        <button onclick="runFunction('*')">*</button>
+        <button onclick="runFunction('9')">9</button>
+        <button onclick="runFunction('0')">0</button>
+        <button onclick="runFunction('=')">=</button>
+        <button onclick="runFunction('/')">/</button>
+
+    </div>
+
+    <script>
+        function clearResult() {
+            document.getElementById('result').value = "";
+        }
+
+        function runFunction(value) {
+            document.getElementById('result').value += value;
+        }
+        function calculate(val) {
+            var result = document.getElementById('result')
+        }
+    </script>
+</body>
+</html>
